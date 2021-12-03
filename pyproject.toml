@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pydeal_line_length"
+version = "0.1.0"
+description = "A pylint checker to enforce line lengths compatible with ideal monitors"
+authors = ["Zach Banks <zjbanks@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pylint = "^2.12.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
